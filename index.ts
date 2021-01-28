@@ -1,2 +1,7 @@
-let helloWorld:string = "Hello World"
-console.log(helloWorld)
+enum Color {
+    Red,
+    Green,
+    Blue
+}
+
+let select: Color = Color.Green
