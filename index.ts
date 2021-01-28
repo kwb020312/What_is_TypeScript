@@ -1,7 +1,3 @@
-enum Color {
-    Red,
-    Green,
-    Blue
-}
+const sum = (a :number, b :number):number => a+b
 
-let select: Color = Color.Green
+console.log(sum(3,4))

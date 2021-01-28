@@ -1,7 +1,2 @@
-var Color;
-(function (Color) {
-    Color[Color["Red"] = 0] = "Red";
-    Color[Color["Green"] = 1] = "Green";
-    Color[Color["Blue"] = 2] = "Blue";
-})(Color || (Color = {}));
-var select = Color.Green;
+var sum = function (a, b) { return a + b; };
+console.log(sum(3, 4));
